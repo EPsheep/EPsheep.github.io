@@ -1,37 +1,77 @@
-## Welcome to GitHub Pages
+## 基本信息
 
-You can use the [editor on GitHub](https://github.com/EPsheep/eps.ink/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+__姓名__: 胡荣
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+__职业__: PHP开发工程师
 
-### Markdown
+__居住地__: 广州
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+__工作经验__: 2年
 
-```markdown
-Syntax highlighted code block
+__毕业院校__: 广东农工商职业技术学院
 
-# Header 1
-## Header 2
-### Header 3
+__手机电话__: 13640222578
 
-- Bulleted
-- List
+__电子邮箱__: epsmail@126.com
 
-1. Numbered
-2. List
+__qq__: 2728648435
 
-**Bold** and _Italic_ and `Code` text
+__微信__: eps-ink
 
-[Link](url) and ![Image](src)
-```
+## 个人优势
+- 热爱编程，喜欢研究和探讨技术问题
+- 逻辑清晰，对事认真负责
+- 熟悉企业系统开发，知识储备丰富，对网站架构和性能有深刻理解。
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## 技术栈
+- PHP
+    - Yii2
+    - Swoft2
+- Java
+    - Spring
+    - Spring MVC
+    - MyBatis
+- 数据库
+    - MySql
+        - 查询优化
+        - 读写分离
+        - 分库分表
+    - Redis
+        - 主从复制
+    - MongoDB
+- 消息中间件
+    - Kafka
+    - RocketMQ
+- 服务化
+    - SOA
+        - 服务注册与发现
+        - Dubbo
+    - 微服务
+        - Docker
+        - Etcd
+        - Consul
+        - Kong
+        - K8s 
+- 运维相关
+    - Composer
+    - Git
+    - Jenkins
+    - Maven
 
-### Jekyll Themes
+## 爱好
+听歌, 阅读, 吉他, 游戏
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/EPsheep/eps.ink/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## 其他
+[![github][githubIcon]][githubLink]
+[![weibo][weiboIcon]][weiboLink]
+[![zhihu][zhihuIcon]][zhihuLink]
+[![bilibili][bilibiliIcon]][bilibiliLink]
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[githubIcon]: http://www.easyicon.net/api/resizeApi.php?id=1230449&size=32
+[githubLink]: https://github.com/EPsheep
+[weiboIcon]: http://www.easyicon.net/api/resizeApi.php?id=1164436&size=32
+[weiboLink]: https://weibo.com/5857402266/profile?rightmod=1&wvr=6&mod=personinfo
+[zhihuIcon]: http://www.easyicon.net/api/resizeApi.php?id=1164448&size=32
+[zhihuLink]: https://www.zhihu.com/people/jing-hao-75-45
+[bilibiliIcon]: http://www.easyicon.net/api/resizeApi.php?id=1188649&size=32
+[bilibiliLink]: https://space.bilibili.com/255717391
