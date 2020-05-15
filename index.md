@@ -27,46 +27,43 @@ __微信__: eps-ink
 - PHP
     - Yii2
     - Swoft2
+    - Composer
 - Java
     - Spring
     - Spring MVC
     - MyBatis
+    - Maven
 - 数据库
     - MySql
-        - 查询优化
-        - 读写分离
-        - 分库分表
     - Redis
-        - 主从复制
     - MongoDB
 - 消息中间件
     - Kafka
     - RocketMQ
 - 服务化
     - SOA
-        - 服务注册与发现
-        - Dubbo
     - 微服务
         - Docker
         - Etcd
         - Consul
         - Kong
-        - K8s 
-- 运维相关
-    - Composer
+        - K8s
+- 其他
     - Git
     - Jenkins
-    - Maven
 
 ## 爱好
 听歌, 阅读, 吉他, 游戏
 
 ## 其他
+[![neteaseMusic][neteaseMusicIcon]][neteaseMusicLink]
+[![bilibili][bilibiliIcon]][bilibiliLink]
 [![github][githubIcon]][githubLink]
 [![weibo][weiboIcon]][weiboLink]
 [![zhihu][zhihuIcon]][zhihuLink]
-[![bilibili][bilibiliIcon]][bilibiliLink]
 
+[neteaseMusicIcon]: http://www.easyicon.net/api/resizeApi.php?id=1188681&size=32
+[neteaseMusicLink]: https://music.163.com/#/user/home?id=328086810
 [githubIcon]: http://www.easyicon.net/api/resizeApi.php?id=1230449&size=32
 [githubLink]: https://github.com/EPsheep
 [weiboIcon]: http://www.easyicon.net/api/resizeApi.php?id=1164436&size=32
