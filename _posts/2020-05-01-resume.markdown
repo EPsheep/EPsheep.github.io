@@ -1,3 +1,13 @@
+---
+layout:     post
+title:      "胡荣的简历"
+subtitle:   "My Resume"
+date:       2015-01-29 12:00:00
+author:     "eps"
+header-img: "img/post-bg-2015.jpg"
+---
+
+
 ## 基本信息
 
 __姓名__: 胡荣
@@ -22,35 +32,6 @@ __微信__: eps-ink
 - 热爱编程，喜欢研究和探讨技术问题
 - 逻辑清晰，对事认真负责
 - 熟悉企业系统开发，知识储备丰富，对网站架构和性能有深刻理解。
-
-## 技术栈
-- PHP
-    - Yii2
-    - Swoft2
-    - Composer
-- Java
-    - Spring
-    - Spring MVC
-    - MyBatis
-    - Maven
-- 数据库
-    - MySql
-    - Redis
-    - MongoDB
-- 消息中间件
-    - Kafka
-    - RocketMQ
-- 服务化
-    - SOA
-    - 微服务
-        - Docker
-        - Etcd
-        - Consul
-        - Kong
-        - K8s
-- 其他
-    - Git
-    - Jenkins
 
 ## 爱好
 听歌, 阅读, 吉他, 游戏
