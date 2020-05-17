@@ -5,18 +5,18 @@ header-img: img/home-bg.jpg
 email: epsmail@126.com
 description: "blog"
 keyword: "blog"
-url: "http://eps.ink"              # your host, for absolute URL
-baseurl: "/blog"         # for example, '/blog' if your blog hosted on 'host/blog'
+url: "http://eps.ink"
+baseurl: "/"
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     epspro
-zhihu_username:     epspro
-github_username:    epspro
-#twitter_username:  epspro
-facebook_username:  epspro
+weibo_username:     eps
+zhihu_username:     eps
+github_username:    eps
+#twitter_username:  eps
+facebook_username:  eps
 
 
 
@@ -84,17 +84,5 @@ friends: [
     {
         title: "eps Blog",
         href: "http://huangxuan.me"
-    },{
-        title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
     }
 ]
