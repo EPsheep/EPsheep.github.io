@@ -1,7 +1,7 @@
 # Site settings
 title: Eps Blog
-SEOTitle: 胡荣的博客 | Your Blog
-header-img: img/home-bg.jpg
+SEOTitle: 胡荣的博客
+header-img: img/wallpaper/laughingOwl.jpg
 email: epsmail@126.com
 description: "blog"
 keyword: "blog"
@@ -50,7 +50,7 @@ kramdown:
 # Duoshuo settings
 duoshuo_username: epsblog
 # Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+duoshuo_share: false                     # set to false if you want to use Comment without Sharing
 
 
 
@@ -66,8 +66,8 @@ ga_domain: xxx.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，看看产品。世界那么大，多玩玩看看。"
-sidebar-avatar: /img/avatar-eps.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Hi..."
+sidebar-avatar: /img/avatar/avatar-eps.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -80,7 +80,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "eps Blog",
-        href: "http://huangxuan.me"
+        title: "Baidu",
+        href: "http://baidu.com"
     }
 ]
