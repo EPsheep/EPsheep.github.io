@@ -12,12 +12,10 @@ baseurl: "/"
 
 # SNS settings
 RSS: false
-weibo_username:     eps
-zhihu_username:     eps
-github_username:    eps
-#twitter_username:  eps
-facebook_username:  eps
-
+weibo_username:     5857402266
+zhihu_username:     jing-hao-75-45
+github_username:    EPsheep
+netease_username:  328086810
 
 
 # Build settings
