@@ -1,12 +1,9 @@
 ---
-layout:     post
-title:      "胡荣的简历"
-subtitle:   "My Resume"
-date:       2015-01-29 12:00:00
-author:     "eps"
-header-img: "img/post-bg-2015.jpg"
+layout: page
+title: "关于我"
+description: "你好, 我叫胡荣"
+header-img: "img/about-bg.jpg"
 ---
-
 
 ## 基本信息
 

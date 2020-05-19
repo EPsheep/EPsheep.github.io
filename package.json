@@ -2,7 +2,7 @@
     "name": "eps-blog",
     "title": "eps Blog",
     "version": "1.0.0",
-    "homepage": "http://epspro.github.io",
+    "homepage": "http://eps.ink",
     "author": "eps",
     "devDependencies": {
         "grunt": "~0.4.5",
@@ -13,7 +13,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/epspro/epspro.github.io"
+        "url": "https://github.com/EPsheep/epsheep.github.io"
     },
     "scripts": {
         "preview": "cd _site; python -m SimpleHTTPServer 8020",
