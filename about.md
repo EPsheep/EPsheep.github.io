@@ -1,29 +1,21 @@
 ---
 layout: page
 title: "关于我"
-description: "你好, 我叫胡荣"
+description: "一个无聊的俗人"
 header-img: "http://h1.ioliu.cn/bing/LavenderBee_ZH-CN0499654521_1920x1080.jpg?imageslim"
 ---
 
 ## 基本信息
 
-__姓名__: 胡荣
-
-__职业__: PHP开发工程师
-
-__居住地__: 广州
-
-__工作经验__: 2年
-
-__毕业院校__: 广东农工商职业技术学院
-
-__手机电话__: 13640222578
-
-__电子邮箱__: epsmail@126.com
-
-__qq__: 2728648435
-
-__微信__: eps-ink
+- __姓名__: 胡荣
+- __职业__: PHP开发工程师
+- __居住地__: 广州
+- __工作经验__: 2年
+- __毕业院校__: 广东农工商职业技术学院
+- __手机电话__: 13640222578
+- __电子邮箱__: epsmail@126.com
+- __qq__: 2728648435
+- __微信__: eps-ink
 
 ## 个人优势
 - 热爱编程，喜欢研究和探讨技术问题
@@ -31,10 +23,10 @@ __微信__: eps-ink
 - 熟悉企业系统开发，知识储备丰富，对网站架构和性能有深刻理解。
 
 ## 爱好
-听歌, 阅读, 吉他, 游戏
-
-## 其他
-[![bilibili][bilibiliIcon]][bilibiliLink]
+- 听歌
+- 吉他
+- 阅读
+- 游戏
 
 [bilibiliIcon]: http://www.easyicon.net/api/resizeApi.php?id=1188649&size=32
 [bilibiliLink]: https://space.bilibili.com/255717391

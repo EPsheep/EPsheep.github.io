@@ -1,32 +1,28 @@
-# Site settings
-title: Eps Blog
+# 网站设置
+title: 胡荣的博客
 SEOTitle: 胡荣的博客
-header-img: http://d.hiphotos.baidu.com/zhidao/pic/item/6a63f6246b600c334c3e91cb1e4c510fd9f9a16a.jpg
+header-img: http://area.sinaapp.com/bingImg/
 email: epsmail@126.com
-description: "blog"
-keyword: "blog"
+description: "胡荣的个人博客, 分享个人经历"
+keyword: "开发, 后端, PHP, Java, 架构, 中间件"
 url: "http://eps.ink"
 baseurl: "/"
 
-# Sidebar settings
+# 侧边栏设置
 sidebar: true
 sidebar-about-description: "Hi..."
 sidebar-avatar: /img/avatar/avatar-eps.jpg
 
-# SNS settings
+# SNS设置
 RSS: false
-weibo_username:     5857402266
-zhihu_username:     jing-hao-75-45
-github_username:    EPsheep
-netease_username:  328086810
+weibo_username: 5857402266
+zhihu_username: jing-hao-75-45
+github_username: EPsheep
+netease_username: 328086810
+bilibili_username: 255717391
 
 # 友情链接
-friends: [
-{
-  title: "Baidu",
-  href: "http://baidu.com"
-}
-]
+friends: []
 
 # 标签
 featured-tags: true
