@@ -2,7 +2,7 @@
 layout: page
 title: "关于我"
 description: "你好, 我叫胡荣"
-header-img: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1589909842015&di=b2738ce7aca1bf8a9303058a2412034a&imgtype=0&src=http%3A%2F%2Fimgs.aixifan.com%2Fo_1c8uc9u9l1uv87a21i3jm7rt5i3c.jpg"
+header-img: "http://h1.ioliu.cn/bing/LavenderBee_ZH-CN0499654521_1920x1080.jpg?imageslim"
 ---
 
 ## 基本信息
