@@ -1,8 +1,8 @@
 ---
 layout: page
 title: "关于我"
-description: "一个无聊的俗人"
-header-img: "http://h1.ioliu.cn/bing/LavenderBee_ZH-CN0499654521_1920x1080.jpg?imageslim"
+description: "凡世间一俗人尔"
+header-img: "http://h1.ioliu.cn/bing/LavenderBee_ZH-CN0499654521_1920x1080.jpg"
 ---
 
 ## 基本信息
@@ -23,10 +23,6 @@ header-img: "http://h1.ioliu.cn/bing/LavenderBee_ZH-CN0499654521_1920x1080.jpg?i
 - 熟悉企业系统开发，知识储备丰富，对网站架构和性能有深刻理解。
 
 ## 爱好
+- 阅读
 - 听歌
 - 吉他
-- 阅读
-- 游戏
-
-[bilibiliIcon]: http://www.easyicon.net/api/resizeApi.php?id=1188649&size=32
-[bilibiliLink]: https://space.bilibili.com/255717391
