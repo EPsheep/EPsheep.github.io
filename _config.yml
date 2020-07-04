@@ -7,11 +7,12 @@ description: "胡荣的个人博客, 分享个人经历"
 keyword: "开发, 后端, PHP, Java, 架构, 中间件"
 url: "http://eps.ink"
 baseurl: "/"
+cdnUrl: "https://cdn.jsdelivr.net/gh/EPsheep/epsheep.github.io"
 
 # 侧边栏设置
 sidebar: true
 sidebar-about-description: "凡世间一俗人尔"
-sidebar-avatar: /img/avatar/avatar-eps.jpg
+sidebar-avatar: "https://cdn.jsdelivr.net/gh/EPsheep/epsheep.github.io/img/avatar/avatar-eps.jpg"
 
 # SNS设置
 RSS: false
