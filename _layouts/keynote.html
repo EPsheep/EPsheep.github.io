@@ -23,7 +23,7 @@ layout: default
                 <div class="post-heading">
                     <div class="tags">
                         {% for tag in page.tags %}
-                        <a class="tag" href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
+                        <a class="tag" href="/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
                         {% endfor %}
                     </div>
                     <h1>{{ page.title }}</h1>
@@ -33,7 +33,6 @@ layout: default
                     {% comment %} if page.subtitle {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% comment %} endif {% endcomment %}
-
                 </div>
             </div>
         </div>
@@ -58,15 +57,15 @@ layout: default
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
-                        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
-                           data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; 上一篇
+                        <a href="{{ page.previous.url | replace: '//', '/' }}"
+                           data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; 上一篇
                             Post</a>
                     </li>
                     {% endif %}
                     {% if page.next.url %}
                     <li class="next">
-                        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
-                           data-placement="top" title="{{page.next.title}}">下一篇 &rarr;</a>
+                        <a href="{{ page.next.url | replace: '//', '/' }}" data-toggle="tooltip"
+                           data-placement="top" title="{{ page.next.title }}">下一篇 &rarr;</a>
                     </li>
                     {% endif %}
                 </ul>
@@ -86,7 +85,7 @@ layout: default
                     <div class="tags">
                         {% for tag in site.tags %}
                         {% if tag[1].size > {{site.featured-condition-size}} %}
-                        <a href="{{ site.baseurl }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+                        <a href="/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
                             {{ tag[0] }}
                         </a>
                         {% endif %}
@@ -101,7 +100,7 @@ layout: default
                 <h5>友情链接</h5>
                 <ul class="list-inline">
                     {% for friend in site.friends %}
-                    <li><a href="{{friend.href}}">{{friend.title}}</a></li>
+                    <li><a href="{{ friend.href }}">{{ friend.title }}</a></li>
                     {% endfor %}
                 </ul>
                 {% endif %}

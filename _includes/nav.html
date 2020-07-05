@@ -9,16 +9,16 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+            <a class="navbar-brand" href="/">{{ site.title }}</a>
         </div>
 
         <div id="epsblog_navbar">
             <div class="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="{{ site.baseurl }}/">主页</a></li>
+                    <li><a href="/">主页</a></li>
                     {% for page in site.pages %}
                     {% if page.title %}
-                    <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                    <li><a href="{{ page.url }}">{{ page.title }}</a></li>
                     {% endif %}
                     {% endfor %}
                 </ul>
