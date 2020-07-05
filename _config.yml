@@ -1,7 +1,8 @@
 # 网站设置
 title: 胡荣的博客
 SEOTitle: 胡荣的博客
-header-img: http://area.sinaapp.com/bingImg/
+#header-img: http://area.sinaapp.com/bingImg/
+header-img: "https://cn.bing.com/th?id=OHR.NantucketIsland_ZH-CN8295645754_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp"
 email: epsmail@126.com
 description: "胡荣的个人博客, 分享个人经历"
 keyword: "开发, 后端, PHP, Java, 架构, 中间件"
@@ -23,7 +24,9 @@ netease_username: 328086810
 bilibili_username: 255717391
 
 # 友情链接
-friends: []
+friends: [
+  { title: "WDNMD", href: "https://chrischan13.github.io/wdnmd/"},
+]
 
 # 标签
 featured-tags: true
