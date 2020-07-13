@@ -14,7 +14,7 @@ $config = [
     "email"                     => "epsmail@126.com",
     "description"               => "胡荣的个人博客, 分享个人经历",
     "keyword"                   => "开发, 后端, PHP, Java, 架构, 中间件",
-    "motto"                     => "写写代码，吐吐苦水，睡睡懒觉",
+    "motto"                     => "",
     "url"                       => "http://eps.ink",
     "baseurl"                   => "/",
     "cdnUrl"                    => "https://cdn.jsdelivr.net/gh/EPsheep/epsheep.github.io",
@@ -96,6 +96,7 @@ $motto           = [
     "故人笑比中庭树，一日秋风一日疏",
 ];
 $config['motto'] = $motto[mt_rand(0, count($motto) - 1)];
+
 echo '随机生成签名成功!';
 
 // 3. 写入配置文件
