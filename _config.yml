@@ -1,49 +1,40 @@
-# 网站设置
+---
 title: 胡荣的博客
 SEOTitle: 胡荣的博客
-#header-img: http://area.sinaapp.com/bingImg/
-header-img: "https://cn.bing.com/th?id=OHR.NantucketIsland_ZH-CN8295645754_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp"
+header-img: https://cn.bing.com/th?id=OHR.SunnyRainforest_ZH-CN1412617420_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
 email: epsmail@126.com
-description: "胡荣的个人博客, 分享个人经历"
-keyword: "开发, 后端, PHP, Java, 架构, 中间件"
-url: "http://eps.ink"
-baseurl: "/"
-cdnUrl: "https://cdn.jsdelivr.net/gh/EPsheep/epsheep.github.io"
-
-# 侧边栏设置
+description: 胡荣的个人博客, 分享个人经历
+keyword: 开发, 后端, PHP, Java, 架构, 中间件
+url: http://eps.ink
+baseurl: /
+cdnUrl: https://cdn.jsdelivr.net/gh/EPsheep/epsheep.github.io
 sidebar: true
-sidebar-about-description: "凡世间一俗人尔"
-sidebar-avatar: "https://s1.ax1x.com/2020/07/05/UpyY9A.jpg"
-
-# SNS设置
+sidebar-about-description: 凡世间一俗人尔
+sidebar-avatar: https://s1.ax1x.com/2020/07/05/UpyY9A.jpg
 RSS: false
-weibo_username: 5857402266
+weibo_username: "5857402266"
 zhihu_username: jing-hao-75-45
 github_username: EPsheep
-netease_username: 328086810
-bilibili_username: 255717391
-
-# 友情链接
-friends: [
-  { title: "WDNMD", href: "https://chrischan13.github.io/wdnmd/"},
-]
-
-# 标签
+netease_username: "328086810"
+bilibili_username: "255717391"
+friends:
+- title: WDNMD
+  href: https://chrischan13.github.io/wdnmd/
 featured-tags: true
 featured-condition-size: 1
-
-# Build settings
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
-# Gems
-gems: [jekyll-paginate]
-
-# Markdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
+exclude:
+- less
+- node_modules
+- Gruntfile.js
+- package.json
+- README.md
+anchorjs: true
+gems:
+- jekyll-paginate
 markdown: kramdown
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  input: GFM
+...
