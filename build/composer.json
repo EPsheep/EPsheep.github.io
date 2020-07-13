@@ -1,5 +1,19 @@
 {
-    "require": {
-        "guzzlehttp/guzzle": "^7.0"
+  "name": "eps/blog-build",
+  "authors": [
+    {
+      "name": "eps",
+      "email": "epsmail@126.com"
     }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
 }
+

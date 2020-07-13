@@ -5,9 +5,12 @@ header-img: https://cn.bing.com/th?id=OHR.SunnyRainforest_ZH-CN1412617420_1920x1
 email: epsmail@126.com
 description: 胡荣的个人博客, 分享个人经历
 keyword: 开发, 后端, PHP, Java, 架构, 中间件
+motto: 故人笑比中庭树，一日秋风一日疏
 url: http://eps.ink
 baseurl: /
 cdnUrl: https://cdn.jsdelivr.net/gh/EPsheep/epsheep.github.io
+timezone: Asia/Shanghai
+encoding: utf-8
 sidebar: true
 sidebar-about-description: 凡世间一俗人尔
 sidebar-avatar: https://s1.ax1x.com/2020/07/05/UpyY9A.jpg
@@ -23,12 +26,15 @@ friends:
 featured-tags: true
 featured-condition-size: 1
 highlighter: rouge
-permalink: pretty
+permalink: /posts/:title
 paginate: 10
 exclude:
-- less
-- node_modules
-- Gruntfile.js
+- build
+- css
+- img
+- js
+- CNAME
+- LICENSE
 - package.json
 - README.md
 anchorjs: true
