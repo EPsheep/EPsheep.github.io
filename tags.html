@@ -1,17 +1,15 @@
 ---
-title: 标签
 layout: default
-header-img: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1593836008636&di=fbb9d5969fb5eac07d7d477621045796&imgtype=0&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D2923354248%2C1046799059%26fm%3D214%26gp%3D0.jpg"
 ---
 
 <!-- Page Header -->
-<header class="intro-header" style="background-image: url('{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<header class="intro-header" style="background-image: url('{{ site.tag-header-img }}')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading" id="tag-heading">
-                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-                    <span class="subheading">{{ page.description }}</span>
+                    <h1>标签</h1>
+                    <span class="subheading"></span>
                 </div>
             </div>
         </div>
@@ -42,13 +40,9 @@ header-img: "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec
 				  </li> -->
 				 <div class="post-preview">
 				    <a href="{{ post.url }}">
-				        <h2 class="post-title">
-                            {{ post.title }}
-				        </h2>
+				        <h2 class="post-title">{{ post.title }}</h2>
 				        {% if post.subtitle %}
-				        <h3 class="post-subtitle">
-				            {{ post.subtitle }}
-				        </h3>
+				        <h3 class="post-subtitle">{{ post.subtitle }}</h3>
 				        {% endif %}
 				    </a>
 				    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
