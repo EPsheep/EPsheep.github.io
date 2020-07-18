@@ -1,4 +1,5 @@
 $(function () {
+    // noinspection JSUnresolvedFunction
     $("[data-toggle='tooltip']").tooltip()
 
     $("table").wrap("<div class='table-responsive'></div>"), $("table").addClass("table")
@@ -39,14 +40,10 @@ $(function () {
         }
     })
 
-    // 加载fastClick
-    $.getScript("http://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function () {
-        let $nav = $('nav');
-        if ($nav.length == 0) {
-            return;
-        }
+    // fastClick
+    let $nav = $('nav');
+    if ($nav.length > 0) {
         FastClick.attch($nav);
-    });
-
+    }
 });
 
