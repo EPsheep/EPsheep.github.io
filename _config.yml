@@ -1,17 +1,17 @@
 ---
 title: 胡荣的博客
 SEOTitle: 胡荣的博客
-header-img: https://cn.bing.com/th?id=OHR.PantheonParis_ZH-CN1546295756_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
+header-img: https://cn.bing.com/th?id=OHR.NineSpotted_ZH-CN0422284522_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
 email: epsmail@126.com
 description: 胡荣的个人博客, 分享个人经历
 keyword: 开发, 后端, PHP, Java, 架构, 中间件
-motto: 非淡泊无以明志，非宁静无以致远
+motto: 合理安排时间，就等于节约时间
 url: http://eps.ink
 baseurl: /
 cdnUrl: https://cdn.jsdelivr.net/gh/EPsheep/epsheep.github.io
 timezone: Asia/Shanghai
 encoding: utf-8
-about-header-img: https://cn.bing.com/th?id=OHR.SunnyRainforest_ZH-CN1412617420_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
+about-header-img: https://cn.bing.com/th?id=OHR.HappyBalloon_ZH-CN0324866466_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
 sidebar: true
 sidebar-about-description: 凡世间一俗人尔
 sidebar-avatar: https://s1.ax1x.com/2020/07/05/UpyY9A.jpg
@@ -26,7 +26,7 @@ friends:
   href: https://chrischan13.github.io/wdnmd/
 featured-tags: true
 featured-condition-size: 1
-tag-header-img: https://cn.bing.com/th?id=OHR.WaterRipplesVideo_ZH-CN8790763092_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
+tag-header-img: https://cn.bing.com/th?id=OHR.FrederickSound_ZH-CN1838908749_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp
 highlighter: rouge
 permalink: /posts/:title
 paginate: 10
