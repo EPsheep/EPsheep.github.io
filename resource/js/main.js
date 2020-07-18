@@ -1,5 +1,5 @@
 $(function () {
-    // noinspection JSUnresolvedFunction
+
     $("[data-toggle='tooltip']").tooltip()
 
     $("table").wrap("<div class='table-responsive'></div>"), $("table").addClass("table")
@@ -43,7 +43,10 @@ $(function () {
     // fastClick
     let $nav = $('nav');
     if ($nav.length > 0) {
-        FastClick.attch($nav);
+        FastClick.attach($nav);
     }
+
+    // 加载lazyLoad
+    lazyload()
 });
 
