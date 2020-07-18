@@ -1,14 +1,13 @@
 ---
 layout:     post
-title:      "十亿级数据库的优化设计"
-subtitle:   "一次面试后的思考"
-date:       2020-07-18 18:29:00
+title:      "Nginx的epoll模型"
+subtitle:   ""
+date:       2020-07-19 01:51:00
 author:     "胡荣"
 header-img: "https://s1.ax1x.com/2020/07/05/UpySlq.jpg"
 tags:
-  - MySQL
+  - Nginx
 ---
 
 面试时, 遇到面试官提问: "现有数据库存了手机号码串十亿, 如何设计数据库提高查询速度?"
 
-[1]: https://learnku.com/articles/46610
