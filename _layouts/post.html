@@ -8,7 +8,8 @@ layout: default
     {% assign headerImage = site.data.images.site-header-img %}
 {% endif %}
 
-<!-- Post Header -->
+<!--suppress HtmlUnknownTarget, JSUnresolvedLibraryURL, JSUnresolvedFunction, CssUnknownTarget, JSUnresolvedVariable -->
+
 <style type="text/css">
     header.intro-header {
         background-image: url('{{ headerImage }}')
@@ -95,14 +96,15 @@ layout: default
 {% if site.anchorjs %}
 <!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
 <script>
-    async("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function () {
+    // 加载fastClick
+    $.getScript("http://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function () {
         anchors.options = {
             visible: 'always',
             placement: 'right',
             icon: '#'
         };
         anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
-    })
+    });
 </script>
 <style>
     /* place left on bigger screen */
