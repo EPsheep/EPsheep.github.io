@@ -2,10 +2,16 @@
 layout: default
 ---
 
+{% if page.header-img %}
+    {% assign headerImage = site.data.images[page.header-img] %}
+{% else %}
+    {% assign headerImage = site.data.images.site-header-img %}
+{% endif %}
+
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header {
-        background-image: url('{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
+        background-image: url('{{ headerImage }}')
     }
 </style>
 <header class="intro-header">
@@ -19,12 +25,6 @@ layout: default
                         {% endfor %}
                     </div>
                     <h1>{{ page.title }}</h1>
-                    {% comment %}
-                    always create a h2 for keeping the margin , eps
-                    {% endcomment %}
-                    {% comment %} if page.subtitle {% endcomment %}
-                    <h2 class="subheading">{{ page.subtitle }}</h2>
-                    {% comment %} endif {% endcomment %}
                 </div>
             </div>
         </div>

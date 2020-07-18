@@ -2,9 +2,14 @@
 layout: default
 ---
 
+{% if page.header-img %}
+    {% assign headerImage = site.data.images[page.header-img] %}
+{% else %}
+    {% assign headerImage = site.data.images.site-header-img %}
+{% endif %}
+
 <!-- Page Header -->
-<header class="intro-header"
-        style="background-image: url('{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<header class="intro-header" style="background-image: url('{{ headerImage }}')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
@@ -104,9 +109,10 @@ layout: default
                 <hr>
                 <h5><a href="/about">关于我</a></h5>
                 <div class="short-about">
-                    {% if site.sidebar-avatar %}
-                    <img src="{{ site.sidebar-avatar }}"/>
+                    {% if site.data.images.avatar %}
+                    <img src="{{ site.data.images.avatar }}"/>
                     {% endif %}
+
                     {% if site.sidebar-about-description %}
                     <p>{{ site.sidebar-about-description }}</p>
                     {% endif %}
