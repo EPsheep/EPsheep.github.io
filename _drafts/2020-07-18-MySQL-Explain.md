@@ -4,7 +4,7 @@ title:      "MySQL之Explain"
 subtitle:   ""
 date:       2020-07-18 17:06:00
 author:     "胡荣"
-header-img: ""alone-carton-man""
+header-img: "alone-carton-man"
 tags:
   - MySQL
 ---
