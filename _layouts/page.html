@@ -2,6 +2,18 @@
 layout: default
 ---
 
+{% if page.title %}
+    {% assign title = page.title %}
+{% else %}
+    {% assign title = site.title %}
+{% endif %}
+
+{% if page.description %}
+    {% assign motto = page.description %}
+{% else %}
+    {% assign motto = site.data.mottos[0] %}
+{% endif %}
+
 {% if page.header-img %}
     {% assign headerImage = site.data.images[page.header-img] %}
 {% else %}
@@ -14,9 +26,9 @@ layout: default
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
                 <div class="site-heading">
-                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <h1>{{ title }}</h1>
                     <!--<hr class="small">-->
-                    <span class="subheading">{% if page.description %}{{ page.description }}{% else %}{{ site.data.mottos | random }}{% endif %}</span>
+                    <span class="subheading">{{ motto }}</span>
                 </div>
             </div>
         </div>
