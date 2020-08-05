@@ -11,15 +11,4 @@ header-img: "about-header-img"
 
 ## 正在做的事
 - 深入学习Mysql中的索引与算法
-- 学习Kafka
 - 阅读《拖延心理学》
-
-## 所掌握的职业技能
-- PHP
-- Python
-- Golang
-- Java
-- Node.js
-- Mysql
-- Docker
-- Redis
