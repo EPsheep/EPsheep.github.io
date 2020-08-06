@@ -20,7 +20,7 @@ bilibili_username: "255717391"
 pixiv_username: "https://www.pixivacg.com/users/4266"
 friends:
 - title: WDNMD
-  href: https://chrischan13.github.io/wdnmd/
+  href: https://chrischan13.gitee.io/wdnmd/
 featured-tags: true
 featured-condition-size: 1
 highlighter: rouge
