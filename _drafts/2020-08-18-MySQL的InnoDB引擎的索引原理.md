@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "MySQL的InnoDB引擎的索引原理"
-subtitle:   ""
+subtitle:   "来自MAKA后端笔试的一道题"
 date:       2020-08-18 09:33:00
 author:     "胡荣"
 header-img: ""
@@ -11,9 +11,6 @@ tags:
 
 ## 问题
 
-给⼀一组⻓长度巨⼤大的整数 numbers 和 数值 M，输出优先级最⾼高的 M 个整数。 
+原本的问题其实是:
 
-约定:
-- 偶数的优先级⼤大于奇数
-- 同样是奇数(或偶数)，数值越⼩小优先级越⾼高
-- 算法时间复杂度最优
+MySQL InnoDB 引擎的索引是如何提升搜索效率的? 
