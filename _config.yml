@@ -41,4 +41,10 @@ gems:
 markdown: kramdown
 kramdown:
   input: GFM
+deploy:
+  type: git
+  repo:
+    github: https://github.com/EPsheep/epsheep.github.io.git
+    coding: https://e.coding.net/hu-rong/eps-blog/eps-blog.git
+  branch: master
 ...
